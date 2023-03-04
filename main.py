@@ -12,11 +12,10 @@ def main():
             w = gw.getWindowsWithTitle(t)[0]
             break
     
-    # bug workaround
     w.minimize()
     w.maximize()
-    #OpenApplication.OpenApplication()
-    #GetWindowPoint.getPoint()
+    OpenApplication.OpenApplication()
+    GetWindowPoint.getPoint()
     
 
 if __name__ == '__main__':

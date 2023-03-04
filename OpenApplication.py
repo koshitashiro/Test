@@ -22,7 +22,7 @@ def makeAppList():
         if chkShortCut(f) == True:
             exepath = getExePath(path + "\\" + f)
             apLst.append(exepath)
-            print(exepath)
+            Eprint(exepath)
     
     return apLst
 
