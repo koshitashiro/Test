@@ -1,6 +1,6 @@
 import subprocess as sproc
-#import time
-#import win32gui
+import time
+import win32gui
 import pygetwindow as pgw
 #import pyautogui as pag
 
